@@ -1,0 +1,13 @@
+.emptyTasks {
+    margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyTasks > p {
+    margin-top: 1rem;
+    line-height: 1.4;
+}

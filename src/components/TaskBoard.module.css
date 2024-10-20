@@ -1,0 +1,37 @@
+.taskBoard {
+    margin-top: 4rem;
+}
+
+.taskBoard > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.createdTasks {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--blue-300);
+}
+
+.finalizedTasks {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--purple-300);
+}
+
+.taskCounter {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+
+    padding: 0.125rem 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 9999px;
+}
+
+.taskWrapper {
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--gray-400);
+}
